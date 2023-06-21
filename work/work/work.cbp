@@ -34,6 +34,7 @@
 		</Compiler>
 		<Unit filename="..\hwork.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="user.cpp" />
 		<Unit filename="user_login.cpp" />
 		<Unit filename="user_sign_in.cpp" />
 		<Unit filename="work.h" />

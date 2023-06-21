@@ -1,6 +1,9 @@
 # depslib dependency file v1.0
-1687228937 source:c:\users\lenovo\desktop\实践\实践作业测试版\ceshi\main.cpp
+1687248707 source:c:\users\lenovo\desktop\实践\实践作业测试版\ceshi\main.cpp
 	<iostream>
 	<stdio.h>
 	<stdlib.h>
+	<cstdio>
+
+1687229753 source:c:\users\lenovo\desktop\实践\实践作业测试版\ceshi\user_sign_in.cpp
 

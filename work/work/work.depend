@@ -1,6 +1,20 @@
 # depslib dependency file v1.0
-1687230178 source:c:\users\lenovo\desktop\实践\work\work\user_login.cpp
-	<bits/stdc++.h>
+1687246722 source:c:\users\lenovo\desktop\实践\work\work\user_login.cpp
+	"work.h"
 
-1687229934 source:c:\users\lenovo\desktop\实践\work\work\user_sign_in.cpp
+1687345519 source:c:\users\lenovo\desktop\实践\work\work\user_sign_in.cpp
+	"work.h"
+	<cstdio>
+
+1687345328 c:\users\lenovo\desktop\实践\work\work\work.h
+	<bits/stdc++.h>
+	<string>
+
+1687250105 source:c:\users\lenovo\desktop\实践\work\work\main.cpp
+	<bits/stdc++.h>
+	<iostream>
+	"work.h"
+
+1687246993 source:c:\users\lenovo\desktop\实践\work\work\user.cpp
+	"work.h"
 
