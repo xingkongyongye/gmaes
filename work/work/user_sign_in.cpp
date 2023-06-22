@@ -7,6 +7,7 @@ void user_sign_in()
     std::string pass;
     std::string number;
     std::string site;
+    string id;
     int flag=0;
     printf("请输入用户名\n");
     printf("%d\n",signnum);
@@ -32,17 +33,35 @@ void user_sign_in()
             user[signnum].name=name;
             user[signnum].pwd=pass;
             signnum++;
+            user[signnum].id=signnum;
             printf("注册成功\n");
             break;
         }
+
     }
     FILE *f=fopen("user_data.txt","w");
-    fprintf(f,"%-21s%-11s\n","用户名", "密码");
-    for(int i=0;i<signnum;i++)
-    {
-        fprintf(f," %-11s,",user[i].name.c_str());
-        fprintf(f," %-21s,",user[i].pwd.c_str());
-        fprintf(f," %-11d\n",user[i].type);
-    }
+    fprintf(f,"%-21s%-21s%-11s\n","用户ID","用户名", "密码");
+
+
+        for(int i=0;i<signnum;i++)
+        {
+            if(user[i].id<10)
+            {
+                fprintf(f,"%s","U0000");
+                fprintf(f,"%-11d",user[i].id);
+                fprintf(f," %-11s,",user[i].name.c_str());
+                fprintf(f," %-21s\n",user[i].pwd.c_str());
+
+            }
+            else
+            {
+                fprintf(f,"%s","U000");
+                fprintf(f,"%-10d",user[i].id);
+                fprintf(f," %-11s,",user[i].name.c_str());
+                fprintf(f," %-21s\n",user[i].pwd.c_str());
+
+            }
+        }
+
 
 }

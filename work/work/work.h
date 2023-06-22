@@ -4,7 +4,7 @@
 #include <string>
 struct u
 {
-    std::string id;
+    int id;
     std::string name;
     std::string pwd;
     int number;
@@ -21,5 +21,7 @@ extern int signnum;
 
 void user_login();
 void user_sign_in();
+void admin_sign();
+void admin_func();
 
 #endif // WORK_H_INCLUDED

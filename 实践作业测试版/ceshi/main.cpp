@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <cstdio>
+#include <bits/stdc++.h>
+#include <sstream>
 using namespace std;
 
 typedef struct u
@@ -14,39 +16,11 @@ user us[10];
 
 int main()
 {
-    /*
-    freopen("use_data.txt","a+",stdout);
+    string a,d;
+    char c[3]={0};
+    int b=3;
+    d=to_String(b);
 
-    for(int i=1;i<=2;i++)
-    {
-        cin>>us[i].name;
-        cin>>us[i].pass;
-        cin>>us[i].type;
-    }
-    printf("name    pass    type\n");
-    for(int i=1;i<=2;i++)
-    {
-        cout<<us[i].name<<' '<<us[i].pass<<' '<<us[i].type<<endl;
-
-    }
-
-    fclose(stdout);
-    freopen("con","w",stdout);
-    printf("hello");
-    */
-    FILE *f=fopen("use_data.txt","w");
-    for(int i=1;i<=2;i++)
-    {
-        cin>>us[i].name;
-        cin>>us[i].pass;
-        cin>>us[i].type;
-    }
-    fprintf(f,"%-11s%-21s%-11s\n", "name", "pass", "type");
-    for(int i=1;i<=2;i++)
-    {
-        fprintf(f," %-11s,",us[i].name.c_str());
-        fprintf(f," %-21s,",us[i].pass.c_str());
-        fprintf(f," %-11d\n",us[i].type);
-    }
+    printf("%s\n",d);
     return 0;
 }

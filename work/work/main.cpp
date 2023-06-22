@@ -32,6 +32,10 @@ int main()
             user_sign_in();
 
         }
+        if(choice==3)
+        {
+            admin_sign();
+        }
         if(choice==4)
         break;
     }

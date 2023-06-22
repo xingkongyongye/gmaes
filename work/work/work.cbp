@@ -33,6 +33,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="..\hwork.h" />
+		<Unit filename="admin_func.cpp" />
+		<Unit filename="admin_sign.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="user.cpp" />
 		<Unit filename="user_login.cpp" />
