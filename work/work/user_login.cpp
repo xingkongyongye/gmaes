@@ -16,7 +16,9 @@ void user_login()
             if(user[i].name==name && user[i].pwd==pass)
             {
                 cout<<"******登陆成功！******"<<endl;
+                printf("\n");
                 //user_func();
+                user_index=i;
                 flag=1;
                 break;
             }
@@ -24,7 +26,9 @@ void user_login()
             flag=0;
         }
         if(flag==1)
-        {break;}
+        {
+            user_main_menu();
+        }
         if(flag==0)
         {
             cout<<"*****登陆失败，请重新输入账号密码,或退出******"<<endl;

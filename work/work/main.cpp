@@ -2,11 +2,6 @@
 #include <iostream>
 #include "work.h"
 using namespace std;
-/*
-int choice;
-int login=0;
-int signnum=0;
-*/
 
 int main()
 {
@@ -15,10 +10,10 @@ int main()
     {
         printf("========================================================================================================\n");
         printf("\n");
-        printf("1.userlogin    2.user_sign_in  3.admin_login   4.exit\n");
+        printf("1.用户登录    2.用户注册  3.管理员登录   4.退出\n");
         printf("\n");
         printf("========================================================================================================\n");
-        printf("please_scanf_number:");
+        printf("输入操作:");
         cin>>choice;
         if(choice==1)
         {
@@ -38,6 +33,8 @@ int main()
         }
         if(choice==4)
         break;
+
+
     }
     return 0;
 }

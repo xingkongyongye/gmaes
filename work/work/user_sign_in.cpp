@@ -7,7 +7,7 @@ void user_sign_in()
     std::string pass;
     std::string number;
     std::string site;
-    string id;
+    //string id;
     int flag=0;
     printf("请输入用户名\n");
     printf("%d\n",signnum);
@@ -32,9 +32,11 @@ void user_sign_in()
             cin>>pass;
             user[signnum].name=name;
             user[signnum].pwd=pass;
-            signnum++;
             user[signnum].id=signnum;
+            user[signnum].money=0;
+            signnum++;
             printf("注册成功\n");
+            printf("\n");
             break;
         }
 

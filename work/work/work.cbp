@@ -35,9 +35,22 @@
 		<Unit filename="..\hwork.h" />
 		<Unit filename="admin_func.cpp" />
 		<Unit filename="admin_sign.cpp" />
+		<Unit filename="buy_goods.cpp" />
+		<Unit filename="buyer.cpp" />
+		<Unit filename="change_goods.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="search_goods.cpp" />
+		<Unit filename="see_buy.cpp" />
+		<Unit filename="see_history_sell_order.cpp" />
+		<Unit filename="see_more.cpp" />
+		<Unit filename="see_my_sell_goods.cpp" />
+		<Unit filename="see_product.cpp" />
+		<Unit filename="seller.cpp" />
+		<Unit filename="shelf_goods.cpp" />
+		<Unit filename="sold_out.cpp" />
 		<Unit filename="user.cpp" />
 		<Unit filename="user_login.cpp" />
+		<Unit filename="user_main_menu.cpp" />
 		<Unit filename="user_sign_in.cpp" />
 		<Unit filename="work.h" />
 		<Extensions>
