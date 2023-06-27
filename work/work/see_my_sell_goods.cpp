@@ -14,6 +14,7 @@ void see_my_sell_goods()
             cout<<"M0000"<<product[i].id<<"       "<<product[i].name<<"       ";
             printf("%.1lf",product[i].price);
             cout<<"        "<<product[i].year<<'-'<<product[i].month<<'-'<<product[i].day<<" "<<product[i].hour<<':'<<product[i].min<<':'<<product[i].sec<<"      "<<product[i].ing<<endl;
+            //cout<<"*************************************************************************************************************"<<endl;
         }
     }
     cout<<"*************************************************************************************************************"<<endl;

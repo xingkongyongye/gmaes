@@ -25,5 +25,10 @@ void user_main_menu()
         {
             seller();
         }
+        if(choice==4)
+        {
+            my_message();
+        }
+
     }
 }

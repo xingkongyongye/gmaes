@@ -34,15 +34,27 @@
 		</Compiler>
 		<Unit filename="..\hwork.h" />
 		<Unit filename="admin_func.cpp" />
+		<Unit filename="admin_order.cpp" />
+		<Unit filename="admin_search.cpp" />
+		<Unit filename="admin_see_goods.cpp" />
+		<Unit filename="admin_see_user.cpp" />
 		<Unit filename="admin_sign.cpp" />
+		<Unit filename="admin_sold_goods.cpp" />
 		<Unit filename="buy_goods.cpp" />
 		<Unit filename="buyer.cpp" />
 		<Unit filename="change_goods.cpp" />
+		<Unit filename="change_messgae.cpp" />
+		<Unit filename="chongzhi.cpp" />
+		<Unit filename="del_user.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="my_message.cpp" />
+		<Unit filename="save_goods.cpp" />
+		<Unit filename="save_order.cpp" />
 		<Unit filename="search_goods.cpp" />
 		<Unit filename="see_buy.cpp" />
 		<Unit filename="see_history_sell_order.cpp" />
 		<Unit filename="see_more.cpp" />
+		<Unit filename="see_my_message.cpp" />
 		<Unit filename="see_my_sell_goods.cpp" />
 		<Unit filename="see_product.cpp" />
 		<Unit filename="seller.cpp" />

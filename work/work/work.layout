@@ -5,63 +5,96 @@
 		<Cursor position="111" topLine="0" />
 	</File>
 	<File name="admin_func.cpp" open="1" top="0" tabpos="7">
-		<Cursor position="0" topLine="0" />
+		<Cursor position="1633" topLine="27" />
+	</File>
+	<File name="admin_order.cpp" open="1" top="0" tabpos="26">
+		<Cursor position="708" topLine="0" />
+	</File>
+	<File name="admin_search.cpp" open="1" top="0" tabpos="28">
+		<Cursor position="535" topLine="0" />
+	</File>
+	<File name="admin_see_goods.cpp" open="1" top="0" tabpos="27">
+		<Cursor position="898" topLine="0" />
+	</File>
+	<File name="admin_see_user.cpp" open="1" top="0" tabpos="29">
+		<Cursor position="493" topLine="0" />
 	</File>
 	<File name="admin_sign.cpp" open="1" top="0" tabpos="6">
-		<Cursor position="60" topLine="0" />
+		<Cursor position="317" topLine="0" />
 	</File>
-	<File name="buy_goods.cpp" open="1" top="0" tabpos="19">
-		<Cursor position="258" topLine="0" />
+	<File name="admin_sold_goods.cpp" open="1" top="0" tabpos="31">
+		<Cursor position="306" topLine="8" />
+	</File>
+	<File name="buy_goods.cpp" open="1" top="0" tabpos="17">
+		<Cursor position="56" topLine="0" />
 	</File>
 	<File name="buyer.cpp" open="1" top="0" tabpos="10">
-		<Cursor position="971" topLine="10" />
+		<Cursor position="648" topLine="3" />
 	</File>
-	<File name="change_goods.cpp" open="1" top="1" tabpos="13">
-		<Cursor position="453" topLine="24" />
+	<File name="change_goods.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="2159" topLine="52" />
+	</File>
+	<File name="change_messgae.cpp" open="1" top="0" tabpos="22">
+		<Cursor position="1129" topLine="21" />
+	</File>
+	<File name="del_user.cpp" open="1" top="0" tabpos="30">
+		<Cursor position="377" topLine="1" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="728" topLine="3" />
+		<Cursor position="728" topLine="6" />
 	</File>
-	<File name="search_goods.cpp" open="1" top="0" tabpos="20">
-		<Cursor position="529" topLine="0" />
+	<File name="my_message.cpp" open="1" top="0" tabpos="21">
+		<Cursor position="771" topLine="21" />
 	</File>
-	<File name="see_buy.cpp" open="1" top="0" tabpos="21">
-		<Cursor position="797" topLine="0" />
+	<File name="save_goods.cpp" open="1" top="0" tabpos="24">
+		<Cursor position="700" topLine="0" />
 	</File>
-	<File name="see_history_sell_order.cpp" open="1" top="0" tabpos="17">
+	<File name="save_order.cpp" open="1" top="0" tabpos="25">
+		<Cursor position="334" topLine="0" />
+	</File>
+	<File name="search_goods.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="552" topLine="0" />
+	</File>
+	<File name="see_buy.cpp" open="1" top="0" tabpos="19">
+		<Cursor position="421" topLine="0" />
+	</File>
+	<File name="see_history_sell_order.cpp" open="1" top="0" tabpos="15">
 		<Cursor position="777" topLine="0" />
 	</File>
-	<File name="see_more.cpp" open="1" top="0" tabpos="22">
-		<Cursor position="270" topLine="2" />
+	<File name="see_more.cpp" open="1" top="0" tabpos="20">
+		<Cursor position="270" topLine="0" />
+	</File>
+	<File name="see_my_message.cpp" open="1" top="0" tabpos="23">
+		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="see_my_sell_goods.cpp" open="1" top="0" tabpos="12">
-		<Cursor position="452" topLine="0" />
+		<Cursor position="1082" topLine="0" />
 	</File>
-	<File name="see_product.cpp" open="1" top="0" tabpos="18">
+	<File name="see_product.cpp" open="1" top="0" tabpos="16">
 		<Cursor position="734" topLine="0" />
 	</File>
 	<File name="seller.cpp" open="1" top="0" tabpos="9">
 		<Cursor position="852" topLine="6" />
 	</File>
 	<File name="shelf_goods.cpp" open="1" top="0" tabpos="11">
-		<Cursor position="646" topLine="15" />
+		<Cursor position="1408" topLine="24" />
 	</File>
-	<File name="sold_out.cpp" open="1" top="0" tabpos="16">
-		<Cursor position="317" topLine="0" />
+	<File name="sold_out.cpp" open="1" top="0" tabpos="14">
+		<Cursor position="395" topLine="0" />
 	</File>
 	<File name="user.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="161" topLine="0" />
+		<Cursor position="172" topLine="0" />
 	</File>
 	<File name="user_login.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="1022" topLine="21" />
+		<Cursor position="753" topLine="12" />
 	</File>
 	<File name="user_main_menu.cpp" open="1" top="0" tabpos="8">
-		<Cursor position="370" topLine="0" />
+		<Cursor position="692" topLine="6" />
 	</File>
-	<File name="user_sign_in.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="596" topLine="21" />
+	<File name="user_sign_in.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="256" topLine="3" />
 	</File>
 	<File name="work.h" open="1" top="0" tabpos="4">
-		<Cursor position="1067" topLine="37" />
+		<Cursor position="1452" topLine="49" />
 	</File>
 </CodeBlocks_layout_file>

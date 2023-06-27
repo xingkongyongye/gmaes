@@ -70,6 +70,7 @@ label_2:
         {
             product[index-1].describe=des;
         }
+        save_goods();
         cout<<"修改成功!"<<endl;
         return;
     }

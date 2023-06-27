@@ -8,3 +8,4 @@ int goods_num=0;
 int goods_id=1;
 int user_index;
 int out_num=0;
+int tnum=0;

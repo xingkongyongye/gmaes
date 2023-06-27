@@ -13,4 +13,5 @@ void sold_out()
             product[i].ing="已下架";
         }
     }
+    save_goods();
 }

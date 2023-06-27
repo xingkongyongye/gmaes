@@ -12,6 +12,7 @@ label_4:
         id=atoi(a+strlen(a)-1);
     else
         id=atoi(a+strlen(a)-2);
+    cout<<"你输入的id为:"<<id<<endl;
     for(int i=0;i<goods_num;i++)
     {
         if(product[i].id==id)
@@ -22,7 +23,10 @@ label_4:
                 if(user[user_index].money>=product[i].price)
                 {
                     user[user_index].money=user[user_index].money-product[i].price;
+                    user[product[i].sell_id].money=user[product[i].sell_id].money+product[i].price;
                     product[i].buy_id=user[user_index].id;
+                    product[i].tid=tnum;
+                    tnum++;
                     product[i].ing="已售出";
                     cout<<"**************************"<<endl;
                     cout<<"交易提醒！"<<endl<<"交易时间："<<product[i].year<<'-'<<product[i].month<<'-'<<product[i].day<<endl<<"交易金额：";
@@ -30,6 +34,8 @@ label_4:
                     cout<<endl<<"交易状态：交易成功"<<endl<<"余额";
                     printf("%.1lf元\n",user[user_index].money);
                     cout<<"**************************"<<endl;
+                    save_goods();
+                    return;
                 }
                 else
                 {
@@ -40,11 +46,14 @@ label_4:
                     cout<<endl<<"交易状态：交易失败"<<endl<<"余额：";
                     printf("%.1lf元\n",user[user_index].money);
                     cout<<"**************************"<<endl;
+                    return;
                 }
             }
         }
-        else
-        {
+    }
+
+
+
 label_5:
             cout<<"ID不存在请重新输入或返回(1.重新输入 2.返回)：";
             cin>>x;
@@ -60,6 +69,6 @@ label_5:
             {
                 goto label_5;
             }
-        }
-    }
+
+
 }

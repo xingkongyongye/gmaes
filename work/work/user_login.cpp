@@ -13,7 +13,7 @@ void user_login()
     {
         for(int i=0;i<signnum;i++)
         {
-            if(user[i].name==name && user[i].pwd==pass)
+            if(user[i].name==name && user[i].pwd==pass&&user[i].ing==1)
             {
                 cout<<"******登陆成功！******"<<endl;
                 printf("\n");
@@ -22,6 +22,8 @@ void user_login()
                 flag=1;
                 break;
             }
+            else if(user[i].name==name && user[i].pwd==pass&&user[i].ing==0)
+            cout<<"您的用户已被删除"<<endl;
             else
             flag=0;
         }

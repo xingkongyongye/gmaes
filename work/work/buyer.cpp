@@ -18,6 +18,7 @@ void buyer()
         if(choice==2)
         {
             buy_goods();
+            save_order();
         }
         if(choice==3)
         {

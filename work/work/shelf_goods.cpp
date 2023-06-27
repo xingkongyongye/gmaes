@@ -43,6 +43,7 @@ label_0:
         //cout<<product[goods_num].name;
         goods_num++;
         goods_id++;
+        save_goods();
         cout<<"商品发布成功!"<<endl;
 
     }
