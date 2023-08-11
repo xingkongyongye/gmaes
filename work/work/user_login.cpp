@@ -38,7 +38,7 @@ void user_login()
             cin>>c;
             if(c==1)
             return;//返回主菜单
-            if(c==2)
+            else
             {
                 cout<<"请输入用户名:";
                 cin>>name;
